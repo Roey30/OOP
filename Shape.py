@@ -51,4 +51,7 @@ class Shape:
 
 
 if __name__ == '__main__':
-    assert 
+    shape = Shape("Blue", 30, 45)
+    assert shape.Get_Colour() == "Blue"
+    assert shape.Get_Area() == 30
+    assert shape.Get_Perimeter() == 45
