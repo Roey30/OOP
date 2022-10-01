@@ -33,3 +33,11 @@ class Square(Rectangle):
         :return: the perimeter of the Square
         """
         return self.edge * 4
+
+
+if __name__ == '__main__':
+    square = Square("Black", 25, 20, 5)
+    assert square.Get_Colour() == "Black"
+    assert square.Get_Area() == 25
+    assert square.Get_Perimeter() == 20
+    assert square.Get_Edge() == 5
